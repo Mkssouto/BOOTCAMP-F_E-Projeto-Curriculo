@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mouse+Memoirs&display=swap');
+/*para fazer o reset */
+*{  margin: 0; 
+    padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+    /*font-family: 'Mouse Memoirs', sans-serif;*/
+	font-size: 10px;
+    color:#939393;
+}
+.conteiner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+nav>ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+  }
+
+  nav>ul>li {
+    float: left;
+    position: relative;
+  }
+
+  nav>ul>li>a,
+  nav>ul>li>a:visited {
+    padding: 15px;
+    background: #f4f3f3;
+    color: #939393;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    position: relative;
+    float: left;
+  }
+
+  nav>ul>li>a:hover,
+  nav>ul>li>a:active {
+    background: #939393;
+    color: #f4f3f3;
+  }
+
+  nav>ul>li>ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    top: 44.4px;
+  }
+
+  nav>ul>li>ul>li {
+    width: 100%
+  }
+
+  nav>ul>li>ul>li>a {
+    padding: 15px;
+    background: #f4f3f3;
+    color: #939393;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  nav>ul>li:hover>ul {
+    display: block;
+  }
+  nav>ul>li>ul>li>a:hover {
+    background: #939393;
+    color: #f4f3f3;
+  }
+
+.foto {
+    float: left;
+    width: 330px;
+    height: 465px;
+    background-color: #f4f3f3;
+}
+.foto img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 70px 50px 200px 80px;
+}
+.dadosPessoais {
+    float: right;
+    width: 670px;
+    height: 420px;
+}
+.firstName {
+    font-size: 3.1em;    
+    font-weight: 300;
+    line-height: 0.9;
+    /*color: #939393;*/
+}
+.lastName {
+    font-size: 3.1em;
+    font-weight: 700;
+    line-height: 0.9;
+    color: #F8BB10;
+}
+h1 {
+    margin: 100px 260px 25px 30px;
+}
+.profissao h2 {
+    font-size: 2.0em;
+    float: left;
+    margin-left: 30px;
+    padding: 5px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.profissao ul{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.profissao li {
+    display: inline;
+}
+.profissao a {
+    text-decoration: none; /*tirar o sublinhado do link */
+    text-align: center;
+    display:inline-block;
+    /* width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#F8BB10; */
+}
+.profissao i {
+    width: 50px;
+    height: 50px;
+    font-size: 3.0em;
+    color:#727272;
+    /* background-color: #F8BB10;
+    border-radius: 50%; */
+    padding: 5px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+.dadosPessoais table {
+    width: 100%;
+    color: #939393;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top: 3px solid #f4f3f3;
+    margin-bottom: 30px;
+}
+.dadosPessoais th {
+    width: 33.333%;
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    color: #727272
+}
+.dadosPessoais td {
+    font-size: 1.5em;
+padding-bottom: 10px;
+
+}
+.textoColuna1 h2 {
+    /* text-decoration: underline #F8BB10 2px; */
+    color: #727272;
+    font-size: 1.6em;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 50px 30px 10px 30px;
+}
+.box {
+    float:left;
+    width: 50%;
+    height: 180px;
+    padding: 0 2px;
+    box-sizing: border-box;
+    font-size: 1.0em;
+}
+.textoColuna2 > .box > p {
+    font-size: 1.4em;
+}
+#competencia {
+    height: 600px;
+}
+
+.detalhe {
+    margin: 0 30px;
+    font-size: 3px;
+    color:#F8BB10;
+    background-color: #F8BB10;
+}
+.textoColuna2 h2 {
+    /* text-decoration: underline #F8BB10 2px; */
+    color: #727272;
+    font-size: 1.6em;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 50px 50px 0 30px;
+}
+.textoColuna2 h3 {
+    color: #727272;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 0 50px 3px 30px;
+}
+.textoColuna2 p {
+    color: #939393;
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 2px 50px 10px 30px;
+}
+.formacao {
+    float: left;
+    width: 330px; 
+    height: 411.8px;
+    background-color: #f4f3f3;
+}
+.formacaoInfoInfo {
+    float: right;
+    width: 670px;
+    /* background-color: #f4f3f3; */
+}
+.perfil {
+    float: left;
+    width: 330px; 
+    height: 243.4px;
+    background-color: #f4f3f3;
+}
+.perfilInfo {
+    float: right;
+    width: 670px;
+    /* background-color: #f4f3f3; */
+}
+.experiencias {
+    float: left;
+    width: 330px;
+    height: 1650px;
+    background-color: #f4f3f3;
+}
+.experienciasInfo {
+    float: right;
+    width: 670px;
+    /* background-color: #f4f3f3; */
+}
+.outrasEmpresas { 
+    list-style:none; 
+    width: 100%; 
+    margin-bottom: 500px;
+}
+.outrasEmpresas h4 {
+    color: #F8BB10;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 2px 30px 2px 30px;
+}
+.outrasEmpresas li h2 {
+    color: #727272;
+    font-size: 1.6em;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 2px 30px 2px 30px;
+}
+.outrasEmpresas li h3 {
+    color: #727272;
+    font-weight: normal;
+    font-size: 1.3em;
+    text-align: left;
+    padding: 2px 30px px 30px;
+}
+.outrasEmpresas li p {
+    color: #939393;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 2px 30px 2px 30px;
+}
+
+.outrasEmpresas li {
+    position:relative ;
+ }
+
+.outrasEmpresas li a {
+    text-decoration:none; 
+    padding:10px 15px; 
+    display:block;
+}
+
+.outrasEmpresas li a:hover { 
+    color: #939393;
+    background-color: #f4f3f3;
+}
+
+.outrasEmpresas li ul { 
+    position:absolute; 
+     background-color:#fff; 
+     display:none; 
+    }
+
+.outrasEmpresas li:hover ul {
+    display:block;
+}
+
+.outrasEmpresas li ul li {
+    border:1px solid #c0c0c0;
+     display:block; 
+     width: 100%;
+    }
+.experiencias1 {
+    height: 100%;
+    margin-bottom: 200px;
+}
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    color:#939393;
+    text-align: center;
+    height: 150px;
+}
